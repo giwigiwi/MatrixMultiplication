@@ -1,9 +1,10 @@
 package com.epam.giwigiwi.MatrixMultiplication;
 
+import org.apache.log4j.Logger;
+
 public class MatrixPrinter {
 
     public MatrixPrinter(){
-
     }
 
     public void printInConsole(Matrix matrix) {

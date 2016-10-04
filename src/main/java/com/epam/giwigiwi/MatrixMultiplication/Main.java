@@ -1,6 +1,9 @@
 package com.epam.giwigiwi.MatrixMultiplication;
 
+import org.apache.log4j.Logger;
+
 public class Main {
+    private static Logger log = Logger.getLogger(Main.class.getName());
     public static void main(String[] args) {
         MatrixFactory factory = new MatrixFactory();
         MatrixPrinter printer = new MatrixPrinter();

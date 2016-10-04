@@ -1,8 +1,11 @@
 package com.epam.giwigiwi.MatrixMultiplication;
 
+import org.apache.log4j.Logger;
+
 public class Matrix {
     private int size;
     private int [][] matrix;
+    private static Logger log = Logger.getLogger(Matrix.class.getName());
 
     public Matrix(){
     }
@@ -15,7 +18,6 @@ public class Matrix {
         this.size=size;
         this.matrix=matrix;
     }
-
     public Matrix multiply(Matrix matrix2)  {
         int s = getSize();
         Matrix result = new Matrix(s);
@@ -28,6 +30,7 @@ public class Matrix {
                 }
             }
         }
+        log.info("Successfully matrix multiplication");
         return result;
     }
 

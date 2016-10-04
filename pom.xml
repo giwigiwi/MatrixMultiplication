@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.epam.zkb</groupId>
+    <groupId>com.epam.giwigiwi</groupId>
     <artifactId>MatrixM</artifactId>
     <version>1.0-SNAPSHOT</version>
     <properties>
@@ -17,6 +17,7 @@
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
             <version>1.2.17</version>
+            <systemPath></systemPath>
         </dependency>
     </dependencies>
 
